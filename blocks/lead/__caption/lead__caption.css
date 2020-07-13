@@ -9,7 +9,7 @@
   }
 
 @media screen and (max-width: 800px) {
-    .lead__caption {
+  .lead__caption {
       margin-left: 3%;
-    }
+  }
 }

@@ -5,22 +5,22 @@
   }
 
 @media screen and (max-width: 1215px) {
-    .photo-grid__item {  
+  .photo-grid__item {  
       max-width: 300px;
       max-height: 225px;
-    }
+  }
 }
 
 @media screen and (max-width: 970px) {
   .photo-grid__item {  
-    max-width: 352px;
-    max-height: 264px;
+      max-width: 352px;
+      max-height: 264px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .photo-grid__item {  
-    max-width: 288px;
-    max-height: 216px;
+      max-width: 288px;
+      max-height: 216px;
   }
 }

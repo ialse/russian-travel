@@ -1,6 +1,7 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
+@import url(./__digit/intro__digit.css);
 
 .intro {
     width: 690px;
@@ -8,23 +9,22 @@
   }
 
 @media screen and (max-width: 1024px) {
-    .intro {
+  .intro {
       width: 690px;
       margin-left: 4%;
-    }
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .intro {
+  .intro {
       width: auto;
       margin-left: 4%;
       margin-right: 4%;
-    }
+  }
 }
 
 @media screen and (max-width: 500px) {
   .intro {
-
-    margin-top: 64px;
+      margin-top: 64px;
   }
 }

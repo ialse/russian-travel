@@ -4,7 +4,8 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 1.22;
-    text-decoration-line: underline;
+    border-bottom: 1px solid #FFF;
+    text-decoration: none;
 }
 
 .place__link:hover {

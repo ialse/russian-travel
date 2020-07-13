@@ -3,7 +3,7 @@
 }
 
 @media screen and (max-width: 720px) {
-    .footer__list-item {
+  .footer__list-item {
       margin-bottom: 32px;
-    }
-  } 
+  }
+}

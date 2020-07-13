@@ -6,9 +6,15 @@
     line-height: 1.66;
 }
 
+@media screen and (max-width: 700px) {
+  .place__paragraph-container {
+      width: 100%;
+  }
+}
+
 @media screen and (max-width: 500px) {
-    .place__paragraph-container {
+  .place__paragraph-container {
       width: 95%;
       align-self: center;
-    }
   }
+}

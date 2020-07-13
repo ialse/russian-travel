@@ -4,13 +4,13 @@
   }
 
 @media screen and (max-width: 1024px) {
-    .places {
+  .places {
       width: 95%;
-    }
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .places {
+  .places {
       width: 100%;
-    }
+  }
 }

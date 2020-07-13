@@ -5,15 +5,15 @@
 @import url(./__list-item/footer__list-item.css);
 
 .footer {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 3%;
-      padding-bottom: 24px;
-      max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3%;
+    padding-bottom: 24px;
+    max-width: 1280px;
   }
 
 @media screen and (max-width: 720px) {
-    .footer {
+  .footer {
       flex-direction: column;
-    }
-} 
+  }
+}

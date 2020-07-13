@@ -2,7 +2,7 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__link/cover__link.css);
 
-.cover {      
+.cover {
     margin: 92px auto;
     position: relative;
     width: 96%;
@@ -18,49 +18,49 @@
 
   /* Оверлей*/
 .cover::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  background-color: #2A2C2F;
-  opacity: 0.3;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #2A2C2F;
+    opacity: 0.3;
 }
 
   /* Оверлей при наведении*/
 .cover:hover::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  background-color: #2A2C2F;
-  opacity: 0.8;
-  transition: opacity 0.7s ease 0.1s;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #2A2C2F;
+    opacity: 0.8;
+    transition: opacity 0.7s ease 0.1s;
 }
 
 @media screen and (max-width: 1024px) {
-    .cover {
-        width: 100%;
-        min-height: 640px;
-      }
+  .cover {
+      width: 100%;
+      min-height: 640px;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .cover {
-        min-height: 480px;
-      }
+  .cover {
+      min-height: 480px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .cover {
-        min-height: 250px;
-        margin: 64px auto;
-      }
+  .cover {
+      min-height: 250px;
+      margin: 64px auto;
+  }
 }
