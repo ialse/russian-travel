@@ -6,21 +6,20 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__image/place__image.css);
 @import url(./__website/place__website.css);
-
 .place {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 80px;
 }
 
 .place:last-of-type {
-    margin-bottom: 92px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 700px) {
   .place {
-      flex-direction: column;
-      margin-bottom: 48px;
+    flex-direction: column;
+    margin-bottom: 48px;
   }
 }
